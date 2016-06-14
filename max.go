@@ -6,7 +6,8 @@ import "fmt"
 
 func main() {
 
-	var num1, num2 int = 50, 10
+	//Declare and initialize variable all at once.
+	num1, num2 := 50, 10
 
 	fmt.Printf("The max number is: %d\n",max(num1, num2))
 }

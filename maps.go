@@ -16,6 +16,9 @@ func main() {
 	mapVar["Bananas"] = "Yellow"
 	mapVar["Oranges"] = "Orange"
 
+	//Delete key-value pair.
+	delete(mapVar,"Oranges")
+
 	//Print out all key-value pairs.
 	for object := range mapVar {
 		fmt.Println("Color of", object, "is", mapVar[object])
